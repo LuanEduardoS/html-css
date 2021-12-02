@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-size: 1em;
+            /* lighter, normal, bold, bolder */
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            font-family:'Work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic, bolder, 3em, 'Work Sans';
+        }
+        
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi deleniti, sed veritatis necessitatibus maxime nobis labore possimus cumque doloribus maiores cupiditate commodi aut quo iusto autem, ipsa optio nemo.</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quo amet pariatur assumenda odio quisquam eligendi. Recusandae, neque voluptatem modi culpa maxime, et possimus odit amet pariatur ab quas laborum.
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quis dolore sint autem enim quae porro iure numquam commodi optio, possimus ad aliquam explicabo ex suscipit cupiditate, beatae sit unde.</p>
+    <h2>Subtítulo do texto</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, aperiam ipsum sit delectus explicabo unde quasi? Temporibus veniam, obcaecati, nisi architecto itaque rerum debitis perspiciatis mollitia hic molestias aut fuga.</p>
+</body>
+</html>

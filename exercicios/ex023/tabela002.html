@@ -12,6 +12,8 @@
 
         table {
             width: 500px;
+            border-collapse:collapse;
+            position: relative;
         }
 
         td, th {
@@ -20,8 +22,22 @@
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+        
+        thead >tr > th {
+            position: sticky;
+            top: -1;
+            background-color: #383838;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color:
+            white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         caption {
@@ -163,5 +179,7 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam voluptas nemo dicta facere obcaecati perspiciatis reprehenderit quod illo iusto, beatae voluptatibus ad explicabo, numquam saepe dolor dolore quaerat sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam illum ullam itaque commodi libero possimus non, vel vero ratione fuga perferendis eligendi labore deleniti. Temporibus ab et qui numquam aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, cum provident cumque et consequuntur incidunt! Magnam laudantium sed ut natus iure, nesciunt, amet, mollitia fuga veritatis placeat ducimus officiis adipisci!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam voluptas nemo dicta facere obcaecati perspiciatis reprehenderit quod illo iusto, beatae voluptatibus ad explicabo, numquam saepe dolor dolore quaerat sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam illum ullam itaque commodi libero possimus non, vel vero ratione fuga perferendis eligendi labore deleniti. Temporibus ab et qui numquam aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, cum provident cumque et consequuntur incidunt! Magnam laudantium sed ut natus iure, nesciunt, amet, mollitia fuga veritatis placeat ducimus officiis adipisci!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam voluptas nemo dicta facere obcaecati perspiciatis reprehenderit quod illo iusto, beatae voluptatibus ad explicabo, numquam saepe dolor dolore quaerat sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam illum ullam itaque commodi libero possimus non, vel vero ratione fuga perferendis eligendi labore deleniti. Temporibus ab et qui numquam aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, cum provident cumque et consequuntur incidunt! Magnam laudantium sed ut natus iure, nesciunt, amet, mollitia fuga veritatis placeat ducimus officiis adipisci!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam voluptas nemo dicta facere obcaecati perspiciatis reprehenderit quod illo iusto, beatae voluptatibus ad explicabo, numquam saepe dolor dolore quaerat sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam illum ullam itaque commodi libero possimus non, vel vero ratione fuga perferendis eligendi labore deleniti. Temporibus ab et qui numquam aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, cum provident cumque et consequuntur incidunt! Magnam laudantium sed ut natus iure, nesciunt, amet, mollitia fuga veritatis placeat ducimus officiis adipisci!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam voluptas nemo dicta facere obcaecati perspiciatis reprehenderit quod illo iusto, beatae voluptatibus ad explicabo, numquam saepe dolor dolore quaerat sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam illum ullam itaque commodi libero possimus non, vel vero ratione fuga perferendis eligendi labore deleniti. Temporibus ab et qui numquam aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, cum provident cumque et consequuntur incidunt! Magnam laudantium sed ut natus iure, nesciunt, amet, mollitia fuga veritatis placeat ducimus officiis adipisci!</p>
 </body>
 </html>
